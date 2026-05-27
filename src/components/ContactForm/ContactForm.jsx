@@ -1,15 +1,19 @@
+import "./ContactForm.css";
+
 function ContactForm() {
   return (
-    <section className="ContactForm">
-      <h2>Contact Us</h2>
-      <form>
-        <input type="text" placeholder="Your Name" />
-        <input type="email" placeholder="Your Email" />
-        <textarea placeholder="Your Message"></textarea>
-        <button type="submit">Send Message</button>
+    <section className="contact-section">
+      <h2>Have Questions About Planetary Science?</h2>
+
+      <form className="contact-form">
+        <input type="text" placeholder="Full Name" />
+        <input type="email" placeholder="Email" />
+        <input type="text" placeholder="Phone Number" />
+        <textarea placeholder="Message"></textarea>
+
+        <button type="submit">Submit</button>
       </form>
     </section>
-    
   );
 }
 

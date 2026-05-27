@@ -1,0 +1,38 @@
+.planet-grid-section {
+  padding: 80px;
+  background: #eef3ff;
+  text-align: center;
+}
+
+.planet-grid-section h2 {
+  color: #2352b8;
+  margin-bottom: 50px;
+  font-size: 32px;
+}
+
+.planet-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.planet-card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.planet-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.planet-card h3 {
+  margin-top: 15px;
+}
+
+.planet-card p {
+  margin-bottom: 20px;
+  color: gray;
+}
