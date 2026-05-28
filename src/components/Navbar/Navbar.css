@@ -1,9 +1,14 @@
 .navbar {
-    background:#001b5e;
+    background: transparent;
     padding: 20px 80px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
     
 }
 
 .logo {
     width: 120px;
+    height: auto;
 }

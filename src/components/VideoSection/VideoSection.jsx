@@ -1,8 +1,8 @@
 import "./videoSection.css";
 function VideoSection() {
   return (
-    <section className="videoSection">
-        <div className="video-box">
+    <section className="video-section">
+        <div className="video-container">
             <video controls>
                 <source src="https://www.youtube.com/embed/1Yj8nqQWz9o" type="video/mp4" />
             </video>
