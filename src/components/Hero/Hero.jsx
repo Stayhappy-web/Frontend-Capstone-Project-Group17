@@ -2,6 +2,8 @@ import "./Hero.css";
 import logo from "../../assets/logos/logo.png";
 import heroPlanet from "../../assets/images/heroplanet.png";
 
+
+
 function Hero() {
   return (
     <section className="hero">
@@ -23,13 +25,16 @@ function Hero() {
           </p>
 
           <div className="hero-buttons">
+            <a href="#planet-grid" className="explore-btn">
             <button className="btn-primary">
               Explore The Data
             </button>
-
+            </a>
+            <a href="#contact" className="contact-btn">
             <button className="btn-secondary">
               Contact Us
             </button>
+            </a>
           </div>
         </div>
           {/*Right Image*/}
@@ -37,8 +42,8 @@ function Hero() {
           <img src={heroPlanet} alt=" Solar planet" />
         </div>
       </div>
-
     </section>
+
   );
 }
 

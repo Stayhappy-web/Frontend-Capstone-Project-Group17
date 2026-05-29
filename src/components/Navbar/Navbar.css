@@ -1,14 +1,21 @@
 .navbar {
+    position: absolute;
+    display: flex;
+    align-items: center;
     background: transparent;
     padding: 20px 80px;
     position: absolute;
-    width: 100%;
     top: 0;
     left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 100;
     
 }
 
 .logo {
-    width: 120px;
+    width: 95px;
     height: auto;
+    object-fit: contain;
+    display: block;
 }
