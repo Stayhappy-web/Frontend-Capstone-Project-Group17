@@ -13,7 +13,7 @@ const planets = [
 
 function PlanetGrid() {
   return (
-    <section className="planet-grid-section">
+    <section id="planet-grid" className="planet-grid-section">
       <h2>Visualizing the Differences Between Planets</h2>
 
       <div className="planet-grid">

@@ -1,6 +1,7 @@
 import "./Navbar.css";
 import logo from "../../assets/logos/logo.png";
 
+
 function Navbar() {
   return (
     <nav className="navbar">
