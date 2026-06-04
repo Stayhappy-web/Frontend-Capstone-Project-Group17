@@ -19,9 +19,9 @@ function PlanetGrid() {
       <div className="planet-grid">
         {planets.map((planet, index) => (
           <div className="planet-card" key={index}>
-            <img src="/planet.jpg" alt="planet" />
+            <img src={planet.image} alt={planet.planet} />
 
-            <h3>{planet}</h3>
+            <h3>{planet.planet}</h3>
 
             <p>Distance from Sun</p>
           </div>
