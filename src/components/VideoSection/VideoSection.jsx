@@ -1,11 +1,27 @@
+import "./videoSection.css";
+import planetVideo from "../../assets/videos/planetvideo.mp4";
 function VideoSection() {
   return (
-    <section className="videoSection">
-      <h2>Watch Our Video</h2>
-      <video controls>
-        <source src="path/to/your/video.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+    
+    <section className="video-section">
+        <div className="video-container">
+            <video 
+                 src={planetVideo}
+                autoplay
+                loop
+                muted
+                playsinline
+                controls
+                className="planet-video"
+                />
+        </div>
+        <div className="video-text">
+            <h2>How Planetary Data Helps Us Understand Our Space</h2>
+            <p> Planetart science goes beyomg images. Comparing <span>mass, diameter,
+                gravity and density</span> gives insight into into how planets
+                form and behave.
+            </p>
+        </div>
     </section>
   );
 }

@@ -1,9 +1,12 @@
+import "./Navbar.css";
+import logo from "../../assets/logos/logo.png";
 
 
 function Navbar() {
   return (
     <nav className="navbar">
-        <h1>Planet</h1> 
+        <img src={logo} alt="Planet Logo" className="logo" /> 
+
     </nav>
   );
 }
