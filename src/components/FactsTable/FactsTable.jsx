@@ -37,5 +37,4 @@ function FactsTable() {
     </section>
   );
 }
-
 export default FactsTable;
