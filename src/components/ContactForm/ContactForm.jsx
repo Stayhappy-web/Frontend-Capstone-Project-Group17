@@ -10,8 +10,16 @@ function ContactForm() {
         "service_ovtkqc7",
         "template_xhnorpf",
         e.target,
-        "ATThY0Hkp6qMoE4WG"
+        "MqCzEWBQSUOC0JH73"
       )
+      .then(() => {
+        return emailjs.sendForm(
+          "service_ovtkqc7",
+          "template_thdg5mi",
+          e.target,
+          "MqCzEWBQSUOC0JH73"
+        );
+      })
       .then(() => {
         alert("Message sent successfully!");
         e.target.reset();
@@ -25,7 +33,10 @@ function ContactForm() {
   return (
     <section id="contact" className="contact-section">
       <h2>Have Questions About Planetary Science?</h2>
-
+      
+      <p>Interested in learning more about space, astronomy, or how planetary data is collected and analyzed?
+Reach out and we’ll get back to you</p>
+      
       <form className="contact-form" onSubmit={sendEmail}>
         <input
           type="text"
@@ -52,10 +63,11 @@ function ContactForm() {
           placeholder="Message"
           required
         ></textarea>
-
+        
         <button type="submit">Submit</button>
       </form>
     </section>
+  
   );
 }
 
