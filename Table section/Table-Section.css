@@ -1,0 +1,141 @@
+ *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+
+    .page{
+      font-family: 'DM Sans', sans-serif;
+      background: #f5f8ff;
+      color: #1c1c2e;
+      min-height: 100vh;
+      padding: 3rem 1.5rem;
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+
+    /* ── Header ── */
+    .header { margin-bottom: 2.5rem; }
+
+    .header h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size:2.4rem;
+      color: #2a5bd7;
+      line-height: 1.2;
+      margin-bottom: 0.75rem;
+    }
+
+    .header p {
+      font-size: 0.975rem;
+      color:#5a6480;
+      line-height: 1.65;
+      max-width: 580px;
+    }
+
+    /* ── Caption ── */
+    .caption {
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      color:#1c1c2e;
+      margin-bottom: 1rem;
+    }
+
+    /* ── Table wrapper  for horizontal scroll on mobile ── */
+    .table-wrap {
+      overflow-x: auto;
+      border-radius: 14px;
+      border: 1.5px solid #c8d8f8;
+    }
+
+    /* ── Table ── */
+    table {
+      width: 100%;
+      min-width: 560px;
+      border-collapse: collapse;
+    }
+
+    /* Header row */
+    thead tr { background-color: #1a3a8f; }
+
+    thead th {
+      color: #ffffff;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 1rem 1.1rem;
+      text-align: center;
+      white-space: nowrap;
+    }
+
+    thead th:first-child { text-align: left; border-radius: 14px 0 0 0; }
+    thead th:last-child  { border-radius: 0 14px 0 0; }
+
+    /* Body cells */
+    tbody td {
+      padding: 0.85rem 1.1rem;
+      font-size: 0.88rem;
+      color:#1c1c2e;
+      text-align: center;
+      border-bottom: 1px solid #c8d8f8;
+      vertical-align: middle;
+    }
+
+    tbody tr:last-child td { border-bottom: none; }
+
+    /* Alternate row tint */
+    tbody tr:nth-child(odd) td  { background-color: #ffffff; }
+    tbody tr:nth-child(even) td { background-color: #eef4ff; }
+
+    /* Hover for effect */
+    tbody tr:hover td { background-color: #dce9ff; transition: background 0.18s; }
+
+    /* ── Group header cells (rowspan cols) ── */
+    .group-cell {
+      background-color: #eef4ff !important;
+      font-weight: 600;
+      font-size: 0.82rem;
+      color: #1a3a8f;
+      text-align: center;
+      border-right: 2px solid #c8d8f8;
+      vertical-align: middle;
+      white-space: nowrap;
+    }
+
+    /* Sub-group (Gas Giants / Ice Giants) */
+    .subgroup-cell {
+      background-color: #eef4ff !important;
+      font-weight: 500;
+      font-size: 0.8rem;
+      color: #2a5bd7;
+      text-align: center;
+      border-right: 1.5px solid #c8d8f8;
+      vertical-align: middle;
+      white-space: nowrap;
+    }
+
+    /* Planet name */
+    .planet-name {
+      text-align: left;
+      font-weight: 500;
+      color: #1c1c2e;
+      border-right: 1.5px solid #c8d8f8;
+    }
+
+    /* Last row rounded bottom corners */
+    tbody tr:last-child td:first-child { border-radius: 0 0 0 14px; }
+    tbody tr:last-child td:last-child  { border-radius: 0 0 14px 0; }
+
+    /* ── Responsive adjustments ── */
+    @media (max-width: 640px) {
+      .page { padding: 1.75rem 1rem; }
+      thead th, tbody td { padding: 0.7rem 0.7rem; font-size: 0.78rem; }
+    }
+
+    /* color used
+    #1a3a8f
+    #2a5bd7
+    #dce9ff
+    #eef4ff
+    #1c1c2e
+    #5a6480
+    #c8d8f8
+    #ffffff  */
