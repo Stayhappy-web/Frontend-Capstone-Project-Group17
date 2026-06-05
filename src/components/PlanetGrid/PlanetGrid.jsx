@@ -1,9 +1,31 @@
+import "./PlanetGrid.css";
+
+const planets = [
+  "Mercury",
+  "Venus",
+  "Earth",
+  "Mars",
+  "Jupiter",
+  "Saturn",
+  "Uranus",
+  "Neptune",
+];
+
 function PlanetGrid() {
   return (
-    <section className="PlanetGrid">
-      <h2>Explore Our Planets</h2>
-      <div className="planet-cards">
-        {/* Planet cards will be rendered here */}
+    <section id="planet-grid" className="planet-grid-section">
+      <h2>Visualizing the Differences Between Planets</h2>
+
+      <div className="planet-grid">
+        {planets.map((planet, index) => (
+          <div className="planet-card" key={index}>
+            <img src={planet.image} alt={planet.planet} />
+
+            <h3>{planet.planet}</h3>
+
+            <p>Distance from Sun</p>
+          </div>
+        ))}
       </div>
     </section>
   );

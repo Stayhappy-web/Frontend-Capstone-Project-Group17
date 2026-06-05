@@ -1,7 +1,15 @@
+import "./Footer.css";
+
 function Footer() {
   return (
-    <footer className="Footer">
-      <p>&copy; 2023 Planet. All rights reserved.</p>
+    <footer className="footer">
+      <h3>About</h3>
+
+      <p>First names of group members</p>
+
+      <div className="footer-bottom">
+        <p>©2026 Group 17 Capstone Project</p>
+      </div>
     </footer>
   );
 }
