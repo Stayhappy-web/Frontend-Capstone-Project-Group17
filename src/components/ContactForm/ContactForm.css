@@ -6,6 +6,13 @@
 .contact-section h2 {
   color: #2352b8;
   margin-bottom: 40px;
+
+}
+.contact-section p {
+  color: #666;
+  margin-bottom: 40px;
+  line-height: 1.65;
+  
 }
 
 .contact-form {
