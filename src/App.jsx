@@ -17,6 +17,7 @@ function App() {
       <FactsTable />
       <ContactForm />
       <Footer />
+      
     </>
   );
 }

@@ -25,15 +25,17 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: space-between;
 }
 
-.footer-links a {
+ a {
   color: white;
   text-decoration: none;
 }
 
-.footer-links a:hover {
+a:hover {
   text-decoration: underline;
+  color: rgb(15, 15, 14);
 }
 
 .footer-bottom {

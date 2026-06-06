@@ -8,11 +8,12 @@
 }
 
 .video-container video {
-  width: 450px;
-  height: auto;
+  width: 500px;
+  height: 500px;
   max-width: 100%;
   object-fit: cover;
   border-radius: 20px;
+  margin-left: 20px;
 }
 
 .video-text {
@@ -20,10 +21,14 @@
   text-align: center;
 }
 
+.video-text span {
+  color: #1f3f8f;
+}
+
 .video-text h2 {
   color: #1f3f8f;
   margin-bottom: 25px;
-  font-size: 42px;
+  font-size: 32px;
   font-weight: 700;
 }
 
@@ -31,6 +36,7 @@
   line-height: 1.9;
   color: #4b5563;
   font-size: 18px;
+  text-align: justify;
 }
 
 /* TABLET */

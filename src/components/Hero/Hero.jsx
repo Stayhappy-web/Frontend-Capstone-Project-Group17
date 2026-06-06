@@ -9,7 +9,7 @@ function Hero() {
     <section className="hero">
       
        {/* Hero Content*/}
-      <div className="hero-content">
+      <div className="hero-content align_container">
 
           {/*Left Text*/}
         <div className="hero-text">
@@ -39,6 +39,7 @@ function Hero() {
             </a>
           </div>
         </div>
+
           {/*Right Image*/}
         <div className="hero-image">
           <img src={heroPlanet} alt=" Solar planet" />

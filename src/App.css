@@ -26,7 +26,9 @@ video {
 
 
 .hero-container,
+.navbar-container,
 .video-section,
+.hero-logo
 .facts-section,
 .contact-section {
   max-width: 1200px;
@@ -34,6 +36,7 @@ video {
   padding-left: 80px;
   padding-right: 80px;
 }
+
 
 button {
   cursor: pointer;
