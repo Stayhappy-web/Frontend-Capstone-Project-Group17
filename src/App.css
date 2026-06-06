@@ -1,13 +1,48 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+html,
 body {
-  font-family: 'Arial', sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Arial, sans-serif;
   background-color: #f4f7fc;
   color: #111;
+  line-height: 1.5;
 }
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.hero-container,
+.video-section,
+.facts-section,
+.contact-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
 button {
   cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }

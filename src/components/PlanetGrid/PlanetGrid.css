@@ -25,6 +25,7 @@
 .planet-card img {
   width: 200px;
   height: 200px;
+  max-width: 100%;
   object-fit: cover;
 }
 
@@ -35,4 +36,43 @@
 .planet-card p {
   margin-bottom: 20px;
   color: gray;
+}
+
+/* TABLET */
+@media (max-width: 768px) {
+  .planet-grid-section {
+    padding: 60px 30px;
+  }
+
+  .planet-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* MOBILE LARGE */
+@media (max-width: 425px) {
+  .planet-grid-section {
+    padding: 40px 20px;
+  }
+
+  .planet-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .planet-grid-section h2 {
+    font-size: 26px;
+  }
+
+  .planet-card img {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 375px) {
+  .planet-card img {
+    width: 140px;
+    height: 140px;
+  }
 }

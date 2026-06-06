@@ -15,7 +15,9 @@ function Hero() {
         <div className="hero-text">
 
           <h1>
-            Explore Our Solar System Through Data
+            Explore Our Solar 
+            <br />
+            System Through Data
           </h1>
 
           <p>

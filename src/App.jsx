@@ -6,6 +6,7 @@ import FactsTable from "./components/FactsTable/FactsTable";
 import ContactForm from "./components/ContactForm/ContactForm";
 import Footer from "./components/Footer/Footer";
 
+
 function App() {
   return (
     <>
