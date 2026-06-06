@@ -11,7 +11,7 @@ function Footer() {
       built through the TS Academy programme.
     </p>
     <p>
-      Team members: Chiamaka, [other names here].
+      Team members: Emmanuel,Chiamaka  [other names here].
     </p>
   </div>
 

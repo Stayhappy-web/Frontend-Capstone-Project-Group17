@@ -1,20 +1,45 @@
 .navbar {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    background: transparent;
-    padding: 50px 80px;
-    top: 0;
-    left: 0;
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 100;
-    
+  position: absolute;
+  display: flex;
+  align-items: center;
+  background: transparent;
+  padding: 40px 0px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 60px;
+  width: 100%;
+
 }
 
 .logo {
-    width: 95px;
-    height: auto;
-    object-fit: contain;
-    display: block;
+  width: 80px;
+  height: auto;
+}
+
+/* TABLET */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 20px 30px;
+  }
+
+  .logo {
+    width: 70px;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 425px) {
+  .navbar {
+    padding: 15px 20px;
+  }
 }
