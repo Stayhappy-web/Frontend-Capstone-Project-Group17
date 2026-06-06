@@ -2,14 +2,20 @@ import "./FactsTable.css";
 
 function FactsTable() {
   return (
-    <section id="facts-table" className="facts-table-section">
+    <section id="facts-table" className="facts-table-section align_container">
       <div className="page">
         <div className="header">
           <h1>Planetary Facts at a Glance</h1>
-          <p>Below is a comparative table of major planets in our solar system. The data highlights key physical properties used by astronomers and researchers worldwide.</p>
+          <p>
+            Below is a comparative table of major planets in our solar system.
+            The data highlights key physical properties used by astronomers and
+            researchers worldwide.
+          </p>
         </div>
 
-        <p className="caption">Data about the planets of our solar system (Planetary facts taken from NASA)</p>
+        <p className="caption">
+          Data about the planets of our solar system (Planetary facts taken from NASA)
+        </p>
 
         <div className="table-wrap">
           <table>
@@ -24,12 +30,12 @@ function FactsTable() {
               </tr>
             </thead>
             <tbody>
+
               {/* Terrestrial Planets */}
               <tr>
-                <td className="group-cell" rowSpan="4">
+                <td className="group-cell" rowSpan="4" colSpan="2">
                   Terrestrial<br />Planets
                 </td>
-                <td className="group-cell" rowSpan="4"></td>
                 <td className="planet-name">Mercury</td>
                 <td>0.330</td>
                 <td>4,879</td>
@@ -108,6 +114,7 @@ function FactsTable() {
                 <td>5,427</td>
                 <td>3.7</td>
               </tr>
+
             </tbody>
           </table>
         </div>
@@ -115,4 +122,5 @@ function FactsTable() {
     </section>
   );
 }
+
 export default FactsTable;
