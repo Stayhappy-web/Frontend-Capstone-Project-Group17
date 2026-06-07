@@ -37,7 +37,7 @@ function PlanetsGrid() {
         {planets.map((item) => (
           <div className="planet-card" key={item.planet}>
             <figure>
-              <img src={item.image} alt={item.planet} />
+              <img src={item.image} alt={item.planet} loading="lazy" />
               <figcaption>
                 <strong className="planet-name">{item.planet}</strong>
                 <span className="planet-distance">

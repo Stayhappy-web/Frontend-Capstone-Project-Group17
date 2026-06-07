@@ -34,12 +34,15 @@
   background: white;
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 4px 20px rgba(30, 50, 100, 0.08);
-  transition: transform 0.3s ease;
+  box-shadow: 0 2px 10px rgba(30, 50, 100, 0.06);
+  will-change: transform;
+  transition: transform 0.2s ease;
+  transform: translateZ(0);
+  contain:content;
 }
 
 .planet-card:hover {
-  transform: translateY(-6px);
+  transform: translateY(-5px);
 }
 
 .planet-card figure {
@@ -51,6 +54,8 @@
   height: 160px;
   object-fit: cover;
   display: block;
+  content-visibility: auto;
+  contain-intrinsic-size: 160px;
 }
 
 .planet-card figcaption {

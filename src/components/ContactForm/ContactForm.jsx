@@ -1,4 +1,4 @@
-import "./ContactForm.css";
+ import "./ContactForm.css";
 import emailjs from "@emailjs/browser";
 
 function ContactForm() {
@@ -7,17 +7,17 @@ function ContactForm() {
 
     emailjs
       .sendForm(
-        "service_ovtkqc7",
-        "template_xhnorpf",
+        "service_vepvtp9",
+        "template_fow8q9e",
         e.target,
-        "MqCzEWBQSUOC0JH73"
+        "iw5dCO-oNpRML_x-a"
       )
       .then(() => {
         return emailjs.sendForm(
-          "service_ovtkqc7",
-          "template_thdg5mi",
+          "service_vepvtp9",
+          "template_9ict8m2",
           e.target,
-          "MqCzEWBQSUOC0JH73"
+          "iw5dCO-oNpRML_x-a"
         );
       })
       .then(() => {
