@@ -1,4 +1,4 @@
-import "./videoSection.css";
+import "./VideoSection.css";
 import planetVideo from "../../assets/videos/planetvideo.mp4";
 function VideoSection() {
   return (
