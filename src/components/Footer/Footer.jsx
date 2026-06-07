@@ -11,8 +11,8 @@ function Footer() {
       built through the TS Academy programme.
     </p>
     <p>
-      Team members: Emmanuel, Chiamaka, Adedayo, Samuel, Iyanuoluwa, Oluwafemi, Shalom, Mercy
-      Adewale.
+      Team members: Emmanuel, Chiamaka, Adedayo, Prosper,Samuel, Iyanuoluwa, Oluwanifemi, Shalom, Mercy
+      Adewale,Aminat.
     </p>
   </div>
 
