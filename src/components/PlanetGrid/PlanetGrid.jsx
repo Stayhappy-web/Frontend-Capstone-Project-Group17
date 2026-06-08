@@ -23,8 +23,8 @@ function PlanetsGrid() {
   if (error) return <p className="status-msg">{error}</p>;
 
   return (
-    <section className="planets-section align_container">
-      <div className="planets-header align_container">
+    <section id="planet-grid" className="planets-section">
+      <div className="container planets-header">
         <h2>Visualizing the Differences Between Planets</h2>
         <p>
           Each planet in our solar system has unique physical characteristics.
@@ -33,7 +33,7 @@ function PlanetsGrid() {
         </p>
       </div>
 
-      <div className="planets-grid align_container">
+      <div className="container planets-grid">
         {planets.map((item) => (
           <div className="planet-card" key={item.planet}>
             <figure>

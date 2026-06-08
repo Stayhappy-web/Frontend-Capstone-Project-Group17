@@ -2,9 +2,10 @@ import "./FactsTable.css";
 
 function FactsTable() {
   return (
-    <section id="facts-table" className="facts-table-section align_container">
-      <div className="page">
-        <div className="header">
+    <section id="facts-table" className="facts-table-section">
+      <div className="container">
+        <div className="page">
+          <div className="header">
           <h1>Planetary Facts at a Glance</h1>
           <p>
             Below is a comparative table of major planets in our solar system.
@@ -117,6 +118,7 @@ function FactsTable() {
 
             </tbody>
           </table>
+        </div>
         </div>
       </div>
     </section>

@@ -32,13 +32,15 @@ function ContactForm() {
 
   return (
     <section id="contact" className="contact-section">
-      <div className="contact-header">
+      <div className="container contact-header">
         <h2>Have Questions About Planetary Science?</h2>
+        
         <p>
           Interested in learning more about space, astronomy, or how planetary
           data is collected and analyzed? Reach out and we'll get back to you.
         </p>
       </div>
+    
 
       <form className="contact-form" onSubmit={sendEmail}>
         <div className="form-grid">

@@ -24,19 +24,18 @@ video {
   display: block;
 }
 
-
-.hero-container,
-.navbar-container,
-.video-section,
-.hero-logo
-.facts-section,
-.contact-section {
+.container {
+  width:100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding: 0 24px;
 }
 
+
+@media (max-width: 768px) {
+  .container 
+     padding: 0 16px;
+}
 
 button {
   cursor: pointer;

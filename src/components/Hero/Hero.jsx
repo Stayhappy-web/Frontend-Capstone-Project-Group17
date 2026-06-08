@@ -9,7 +9,7 @@ function Hero() {
     <section className="hero">
       
        {/* Hero Content*/}
-      <div className="hero-content align_container">
+      <div className="container hero-content">
 
           {/*Left Text*/}
         <div className="hero-text">

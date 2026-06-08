@@ -45,7 +45,8 @@
 .table-wrap {
   width: 100%;
   border-radius: 20px; /* Rounded corners matching the Figma mockup */
-  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: hidden;
   border: none;
   padding: 0;
   background-color: transparent;
@@ -104,8 +105,9 @@ tbody tr:hover td {
   border: 2px solid #ffffff !important; /* Thick white borders to separate groups */
   vertical-align: middle;
   padding: 1.1rem 1.5rem;
-  white-space: normal;
-  word-break: break-word;
+  white-space: nowrap;
+  word-break: normal;
+  overflow-wrap: normal;
 }
 
 /* ── Subgroup cells (Gas Giants, Ice Giants) ── */
@@ -118,8 +120,9 @@ tbody tr:hover td {
   border: 2px solid #ffffff !important; /* Thick white borders to match */
   vertical-align: middle;
   padding: 1.1rem 1.5rem;
-  white-space: normal;
-  word-break: break-word;
+  white-space: nowrap;
+  word-break: normal;
+  overflow-wrap: normal;
 }
 
 /* ── Planet name ── */
@@ -133,6 +136,31 @@ tbody tr:hover td {
 
 /* ── Responsive ── */
 @media (max-width: 640px) {
-  .page { padding: 1.75rem 1rem; }
-  thead th, tbody td { padding: 0.8rem 0.8rem; font-size: 0.78rem; }
+  .page {
+    padding: 1.5rem 0.75rem;
+  }
+
+  .header h1 {
+    font-size: 1.8rem;
+  }
+
+  .header p {
+    font-size: 0.9rem;
+  }
+
+  table {
+    min-width: 500px;
+  }
+
+  thead th,
+  tbody td {
+    padding: 0.7rem;
+    font-size: 0.75rem;
+  }
+
+  .group-cell,
+  .subgroup-cell {
+    padding: 0.7rem;
+    font-size: 0.75rem;
+  }
 }

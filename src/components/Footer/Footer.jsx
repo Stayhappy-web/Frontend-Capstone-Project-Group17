@@ -4,7 +4,7 @@ function Footer() {
   return (
    <footer className="footer">
 
-  <div className="footer-about align_container">
+  <div className="container footer-about">
     <h2>About</h2>
     <p>
       We're a collaborative team of developers working on a Solar System Explorer Project.

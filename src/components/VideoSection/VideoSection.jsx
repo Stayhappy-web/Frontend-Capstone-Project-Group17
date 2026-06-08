@@ -4,7 +4,7 @@ function VideoSection() {
   return (
     
     <section className="video-section">
-        <div className="video-container">
+        <div className="container video-container">
             <video 
                  src={planetVideo}
                 autoplay
