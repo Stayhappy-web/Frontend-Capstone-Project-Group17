@@ -4,6 +4,8 @@ function VideoSection() {
   return (
     
     <section className="video-section">
+      <div className="video-text">...</div>
+      <div className="videoplayer">...</div>
         <div className="container video-container">
             <video 
                  src={planetVideo}

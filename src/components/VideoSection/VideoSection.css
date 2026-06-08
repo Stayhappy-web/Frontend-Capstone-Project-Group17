@@ -42,7 +42,7 @@
 /* TABLET */
 @media (max-width: 768px) {
   .video-section {
-    flex-direction: column;
+    flex-direction: column-reverse;
     text-align: center;
     padding: 60px 30px;
   }
