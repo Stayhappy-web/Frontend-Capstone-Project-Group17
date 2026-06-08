@@ -27,7 +27,7 @@ function Hero() {
           </p>
 
           <div className="hero-buttons">
-            <a href="#planet-grid" className="explore-btn">
+            <a href="#facts-table" className="explore-btn">
             <button className="btn-primary">
               Explore The Data
             </button>
