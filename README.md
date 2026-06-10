@@ -1,16 +1,108 @@
-# React + Vite
+Planetary Science Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Overview
 
-Currently, two official plugins are available:
+Planetary Science Explorer is a responsive React web application that allows users to explore our solar system through visual data, planetary facts, educational content, and interactive sections. The application presents information about planets in a clear, engaging, and user-friendly format.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Features
 
-## React Compiler
+* Responsive Navigation Bar
+* Hero Section
+* Educational Video Section
+* Planet Grid with Planet Images
+* Planet Facts Table
+* Contact Form with EmailJS Integration
+* Footer Section
+* Smooth Scrolling Navigation
+* Mobile-Friendly Design
+* Deployment on Vercel
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Technologies Used
 
-## Expanding the ESLint configuration
+* React
+* Vite
+* JavaScript (ES6+)
+* CSS3
+* EmailJS
+* GitHub
+* Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Installation
+
+Clone the repository:
+
+git clone https://github.com/Stayhappy-web/Frontend-Capstone-Project-Group17.git
+
+Navigate into the project folder:
+
+cd Frontend-Capstone-Project-Group17
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
+npm run dev
+
+Build for production:
+
+npm run build
+
+Preview production build:
+
+npm run preview
+
+Project Structure
+
+src/
+assets/
+images/
+logos/
+components/
+Navbar/
+Hero/
+VideoSection/
+PlanetGrid/
+FactsTable/
+ContactForm/
+Footer/
+App.jsx
+App.css
+main.jsx
+index.css
+
+
+GitHub Repository
+
+https://github.com/Stayhappy-web/Frontend-Capstone-Project-Group17.git
+
+Live Demo
+
+https://phoenix-tsa-fcp-g17.vercel.app
+
+Team Members
+
+* Emmanuel
+* Chiamaka
+* Adedayo
+* Prosper
+* Samuel
+* Iyanuoluwa
+* Oluwanifemi
+* Shalom
+* Mercy
+* Adewale
+* Aminat
+
+Future Improvements
+
+* Planet search functionality
+* Planet comparison feature
+* Dark mode support
+* Additional planetary datasets
+* Interactive data visualizations
+
+License
+
+This project was developed for educational purposes as part of a Phoenix Frontend Capstone Project.
