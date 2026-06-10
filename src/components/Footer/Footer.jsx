@@ -7,12 +7,12 @@ function Footer() {
   <div className="container footer-about">
     <h2>About</h2>
     <p>
-      We're a collaborative team of developers working on a Solar System Explorer Project.
+      We're a collaborative team of frontend developers working on a Solar System Explorer Project.
       built through the TS Academy programme.
     </p>
     <p>
-      Team members: Emmanuel, Chiamaka, Adedayo, Prosper, Samuel, Iyanuoluwa, Oluwanifemi, Shalom, Mercy
-      Adewale, Aminat.
+      Team members: Emmanuel, Chiamaka, Adedayo, Prosper, Samuel, Iyanuoluwa, Oluwanifemi, 
+      Shalom, Mercy, Adewale, Aminat.
     </p>
   </div>
 
@@ -28,7 +28,7 @@ function Footer() {
 
   <div>
        <p>
-        Built by  <a href="https://github.com/Stayhappy-web/Frontend-Capstone-Project-Group17.git">GROUP 17</a>
+        Built by  <a href="https://github.com/Stayhappy-web/Frontend-Capstone-Project-Group17.git">PHOENIX GROUP 17</a>
       </p>
     </div>
 
