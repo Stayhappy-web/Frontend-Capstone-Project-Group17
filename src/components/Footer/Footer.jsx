@@ -8,7 +8,7 @@ function Footer() {
     <h2>About</h2>
     <p>
       We're a collaborative team of frontend developers working on a Solar System Explorer Project.
-      built through the TS Academy programme.
+      Built through the TS Academy programme.
     </p>
     <p>
       Team members: Emmanuel, Chiamaka, Adedayo, Prosper, Samuel, Iyanuoluwa, Oluwanifemi, 
