@@ -33,8 +33,9 @@ video {
 
 
 @media (max-width: 768px) {
-  .container 
-     padding: 0 16px;
+  .container {
+    padding: 0 16px;
+  }
 }
 
 button {

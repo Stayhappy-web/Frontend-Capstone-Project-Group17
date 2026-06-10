@@ -46,7 +46,7 @@
 }
 
 .planet-card figure {
-  margin: 0;
+   margin: 0;
 }
 
 .planet-card img {
@@ -72,9 +72,11 @@
   color: #1a1f3d;
   font-weight: 700;
   margin-bottom: 12px;
-  caret-color: transparent;
-  border-right: none;
+  caret-color:transparent;
+  user-select:none;
   outline: none;
+  border:none;
+
 }
 
 .planet-distance {
@@ -94,6 +96,19 @@
   font-weight: 700;
   color: #1f4b8f;
   margin-top: 4px;
+}
+
+.planet-name::before,
+.planet-name::after,
+h3::before,
+h3::after {
+  content: none !important;
+}
+
+.planet-name,
+h3 {
+  border-right: none !important;
+  box-shadow: none !important;
 }
 
 @media (max-width: 640px) {
