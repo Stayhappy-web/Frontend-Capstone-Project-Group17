@@ -5,6 +5,7 @@ Overview
 Planetary Science Explorer is a responsive React web application developed as part of a Frontend Capstone Project under the Phoenix Cohort program. The project demonstrates practical application of modern frontend development skills, including component-based architecture, responsive design, and API-driven user interfaces.
 
 The application enables users to explore the solar system through interactive visuals, educational content, and structured planetary data, all presented in a clean and intuitive interface.
+
 Features
 
 * Responsive Navigation Bar
