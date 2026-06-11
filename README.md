@@ -1,4 +1,4 @@
-Planetary Science Explorer
+PLANETARY SCIENCE EXPLORER
 
 Overview
 
