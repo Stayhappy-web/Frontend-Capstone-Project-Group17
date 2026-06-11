@@ -2,8 +2,9 @@ Planetary Science Explorer
 
 Overview
 
-Planetary Science Explorer is a responsive React web application that allows users to explore our solar system through visual data, planetary facts, educational content, and interactive sections. The application presents information about planets in a clear, engaging, and user-friendly format.
+Planetary Science Explorer is a responsive React web application developed as part of a Frontend Capstone Project under the Phoenix Cohort program. The project demonstrates practical application of modern frontend development skills, including component-based architecture, responsive design, and API-driven user interfaces.
 
+The application enables users to explore the solar system through interactive visuals, educational content, and structured planetary data, all presented in a clean and intuitive interface.
 Features
 
 * Responsive Navigation Bar
@@ -81,19 +82,27 @@ Live Demo
 
 https://phoenix-tsa-fcp-g17.vercel.app
 
-Team Members
+Team Members & Contributions
 
-* Emmanuel
-* Chiamaka
-* Adedayo
-* Prosper
-* Samuel
-* Iyanuoluwa
-* Oluwanifemi
-* Shalom
-* Mercy
-* Adewale
-* Aminat
+Team Member | GitHub Username | Contributions 
+
+| Emmanuel | Stayhappy-web | Navbar, Hero Section, Contact Form, Responsive Testing, Bug Fixes, Vercel Deployment, README Documentation, Final Integration & Testing 
+| Chiamaka | diara-28 | Planet Grid 
+| Adedayo | BabeDee94 | Footer, Responsive Testing, Bug Fixes, Final Integration & Testing 
+| Prosper | prosperc436-design | Contact Form 
+| Samuel | Samueldgr8 | Facts Table 
+| Iyanuoluwa | Medivahh | Facts Table 
+| Oluwanifemi | nifemiarunaogun-dotcom | Planet Grid 
+| Shalom | Shalom-levi9 | Hero Section 
+| Mercy | Anuoluwapofm | Footer 
+| Adewale | dzynitenterprise | Planet Grid 
+| Aminat | omobola-ielts | Facts Table 
+
+
+Acknowledgment
+
+This project was developed as a Frontend Capstone Project under the Phoenix Cohort Program. It showcases collaborative teamwork, modern frontend development practices, responsive web design, component-based architecture, testing, documentation, and deployment workflows.
+
 
 Future Improvements
 
